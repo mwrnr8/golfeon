@@ -1,5 +1,4 @@
-import logo from './logo.svg';
-import './css/App.css';
+import '../css/App.css';
 
 function App() {
   return (
@@ -10,7 +9,13 @@ function App() {
           <h3>GOLFEON</h3>
         </div>
 
-        <p className='coming_soon'>COMING SOON...</p>
+        {/* <p className='coming_soon'>COMING SOON...</p> */}
+
+        <footer>
+          <button>
+            Get Started
+          </button>
+        </footer>
       </header>
     </div>
   );
