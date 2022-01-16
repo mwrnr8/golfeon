@@ -1,24 +1,23 @@
 import '../css/App.css';
+import {connect} from 'react-redux';
+import TitlePage from './TitlePage';
+import UserSelect from './UserSelect';
 
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <header className="App-header">
-        <div className='main_title_header'>
-          <p>Golf Tournament Management</p>
-          <h3>GOLFEON</h3>
-        </div>
-
-        {/* <p className='coming_soon'>COMING SOON...</p> */}
-
-        <footer>
-          <button>
-            Get Started
-          </button>
-        </footer>
-      </header>
+      
+        {props.view === 'titlePage' && <TitlePage/>}
+        {props.view === 'userSelect' && <UserSelect/>}
+      
     </div>
-  );
+  ); 
 }
 
-export default App;
+const mapStateToProps = (state) => {
+  return {
+    view: state.component.view
+  }
+}
+
+export default connect(mapStateToProps)(App);

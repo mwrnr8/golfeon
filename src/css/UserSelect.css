@@ -1,0 +1,21 @@
+.menuCard {
+    background: #fff;
+    margin: 0 0 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 10px;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 1px;
+    font-size: 13px;
+}
+.card_container {
+    padding: 20px;
+    min-height: calc(-40px + 100vh);
+}
+.menuCard svg {
+    font-size: 30px;
+}

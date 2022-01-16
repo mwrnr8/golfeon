@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
 
 .App {
-  text-align: center;
+  font-family: 'Sora',sans-serif;
+  background: #006B54;
+  background: -webkit-linear-gradient(top left, #006B54, #013D6C);
+  background: -moz-linear-gradient(top left, #006B54, #013D6C);
+  background: linear-gradient(to bottom right, #006B54, #013D6C);
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -16,11 +21,7 @@
 }
 
 .App-header {
-  font-family: 'Sora',sans-serif;
-  background: #006B54;
-  background: -webkit-linear-gradient(top left, #006B54, #013D6C);
-  background: -moz-linear-gradient(top left, #006B54, #013D6C);
-  background: linear-gradient(to bottom right, #006B54, #013D6C);
+  text-align: center;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -84,3 +85,4 @@ footer button:active {
   background: transparent;
   color:#fff;
 }
+footer button:focus {outline:0;}
