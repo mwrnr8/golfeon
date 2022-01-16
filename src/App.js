@@ -1,22 +1,16 @@
 import logo from './logo.svg';
-import './App.css';
+import './css/App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Golfeon
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className='main_title_header'>
+          <p>Golf Tournament Management</p>
+          <h3>GOLFEON</h3>
+        </div>
+
+        <p className='coming_soon'>COMING SOON...</p>
       </header>
     </div>
   );
