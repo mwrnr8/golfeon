@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/golfeon/static/css/main.af788dd6.css",
-    "main.js": "/golfeon/static/js/main.6494c0f6.js",
+    "main.css": "/golfeon/static/css/main.ee6868c7.css",
+    "main.js": "/golfeon/static/js/main.a8a12072.js",
     "static/js/787.c92d90da.chunk.js": "/golfeon/static/js/787.c92d90da.chunk.js",
     "index.html": "/golfeon/index.html",
-    "main.af788dd6.css.map": "/golfeon/static/css/main.af788dd6.css.map",
-    "main.6494c0f6.js.map": "/golfeon/static/js/main.6494c0f6.js.map",
+    "main.ee6868c7.css.map": "/golfeon/static/css/main.ee6868c7.css.map",
+    "main.a8a12072.js.map": "/golfeon/static/js/main.a8a12072.js.map",
     "787.c92d90da.chunk.js.map": "/golfeon/static/js/787.c92d90da.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.af788dd6.css",
-    "static/js/main.6494c0f6.js"
+    "static/css/main.ee6868c7.css",
+    "static/js/main.a8a12072.js"
   ]
 }
