@@ -9,7 +9,7 @@ function App(props) {
       
         {props.view === 'titlePage' && <TitlePage/>}
         {props.view === 'userSelect' && <UserSelect/>}
-        <div className='copyright'>&#169; Mark Werner</div>
+        <div className='copyright'>Copyright &#169; Mark Werner 2022</div>
     </div>
   ); 
 }
